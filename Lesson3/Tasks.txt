@@ -1,0 +1,13 @@
+A)
+"git add"  Add file contents to the index
+"git init" Create an empty Git repository or reinitialize an existing one
+"git commit"  Record changes to the repository
+"git push" Update remote refs along with associated objects
+
+
+
+B) copy C:\User\Kristev\Desktop\(file name & format) " "<-(space) location were to copy
+   C:\User\Kristev\Desktop\copy 12.png "C:\User\Kristev\Desktop\Tekwill\Home work\Lesson3"
+
+
+C) C:\User\Kristev\Desktop\Tekwill\Home work\del mp3 .
