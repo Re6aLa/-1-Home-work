@@ -12,13 +12,10 @@ public class WhatsUp {
 		String userSurname = reader.next();
 		String userActivity = reader.next();
 		reader.close();
-<<<<<<< HEAD
-		System.out.println("\nNice to meet you, " + userName +" "+ userSurname);
-		System.out.println(	userDomein);
-=======
-		System.out.println("\nNice to meet you, " + userName + "  " +userSurname );
+
+		System.out.println("\nNice to meet you, " + userName + ", " +userSurname );
 		System.out.println(userActivity);
->>>>>>> 87d73661219e675b7227e0c891ea9f9d5ec92f99
+
 		
 	}
 }
