@@ -12,7 +12,7 @@ public class WhatsUp {
 		String userSurname = reader.next();
 		String userDomein = reader.next();
 		reader.close();
-		System.out.println("\nNice to meet you, " + userName + userSurname);
+		System.out.println("\nNice to meet you, " + userName +" "+ userSurname);
 		System.out.println(	userDomein);
 		
 	}
