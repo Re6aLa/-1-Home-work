@@ -39,7 +39,7 @@ public class Calculator{
         }
 		if(operation.equals ("%"))
         {
-            System.out.println("Your answer" + " " + (num1 - num2));
+            System.out.println("Your answer" + " " + (num1 % num2));
         }
 	
 	}
