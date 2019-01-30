@@ -4,12 +4,12 @@ public class WhatsUp {
 	public static void main(String[] args){
 		System.out.println("\nHello User");
 		System.out.println("\nLet's say as about you ");
-		System.out.println("\nWhat's your name: ");
-		System.out.println("\nWhat's your surname: ");
-		System.out.println("\nWhat's your activity : ");
 		Scanner reader = new Scanner(System.in);
+		System.out.println("\nWhat's your name: ");
 		String userName = reader.next();
+		System.out.println("\nWhat's your surname: ");
 		String userSurname = reader.next();
+		System.out.println("\nWhat's your activity : ");
 		String userActivity = reader.next();
 		reader.close();
 
