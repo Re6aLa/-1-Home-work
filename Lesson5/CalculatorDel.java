@@ -6,6 +6,7 @@ public class CalculatorDel{
 	
     double x, y, result;
 	
+	System.out.println("Calculator division");
 	System.out.println("number 1: ");
 	x = Reader.nextDouble();
 	
@@ -15,8 +16,7 @@ public class CalculatorDel{
 	result = x / y;
 	
 	System.out.println("result " + result);
-	System.out.println("addCalculator");
-		System.out.println("Danil Kristev");
+	System.out.println("\nDanil Kristev");
 			System.out.println("number1 / number2");
 	}
 }

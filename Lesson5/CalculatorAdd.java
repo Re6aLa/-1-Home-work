@@ -5,6 +5,7 @@ public class CalculatorAdd{
 	Scanner Reader = new Scanner(System.in);
 	
     double x, y, result;
+	System.out.println("Calculator addition");
 	
 	System.out.println("number 1: ");
 	x = Reader.nextDouble();
@@ -15,8 +16,7 @@ public class CalculatorAdd{
 	result = x + y;
 	
 	System.out.println("result " + result);
-	System.out.println("addCalculator");
-		System.out.println("Danil Kristev");
+			System.out.println("\nDanil Kristev");
 			System.out.println("number1 + number2");
 	}
 }
