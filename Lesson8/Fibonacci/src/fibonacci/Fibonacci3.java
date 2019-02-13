@@ -21,10 +21,10 @@ public class Fibonacci3 {
         
         int a1 = 0, a2 = 1, n = 0, sum = 0;
         do {
-            sum = a1 + a2;
+            sum = a1 +a2 ;
             a2 = a1;
             a1 = sum;
-        System.out.println(sum + "\n");
+        System.out.print(a1 + sum + "\n");
             n++;
         }while (n < 4);
     }
