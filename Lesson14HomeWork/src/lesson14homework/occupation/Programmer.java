@@ -1,5 +1,7 @@
 package lesson14homework.occupation;
 
+import java.util.Scanner;
+
 public class Programmer extends sql {
 
     public Programmer() {
@@ -58,5 +60,55 @@ public class Programmer extends sql {
         this.ProgrammerThird();
         this.ProgrammerFourth();
 
+    }
+    
+    public void programmerName(){
+        System.out.println(this.name);
+    }
+    public void programmerSurname(){
+        System.out.println(this.surname);
+    }
+    public void programmerBirthYear(){
+        System.out.println(this.birthYear);
+    }
+    public void programmerID(){
+        System.out.println(this.ID);
+    }
+    public void programmerStreet(){
+        System.out.println(this.homeNumber);
+    }
+    public void programmerHomeNumber(){
+        System.out.println(this.homeNumber);
+    }
+    public void programmerApartmentNumber(){
+        System.out.println(this.apartmentNumber);
+    }
+    public void Atribut() {
+        System.out.println("1. Name \n2. Surname \n3. Birth Year \n4. ID \n5. Street \n6. Home number \n7. apartment number");
+        Scanner koni = new Scanner(System.in);
+        int atribut = koni.nextInt();
+        switch (atribut){
+            case 1:
+                programmerName();
+                break;
+            case 2:
+                programmerSurname();
+                break;
+            case 3:
+                programmerBirthYear();
+                break;
+            case 4:
+                programmerID();
+                break;
+            case 5:
+                programmerStreet();
+                break;
+            case 6:
+                programmerHomeNumber();
+                break;
+            case 7:
+                programmerApartmentNumber();
+                break;
+        }
     }
 }

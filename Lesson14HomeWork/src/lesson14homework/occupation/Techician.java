@@ -1,8 +1,10 @@
 package lesson14homework.occupation;
 
+import java.util.Scanner;
+
 public class Techician extends sql {
 
-    public Techician(){
+    public Techician() {
     }
 
     public Techician(String name, String surname) {
@@ -57,5 +59,61 @@ public class Techician extends sql {
         this.TechicianThird();
         this.TechicianFourth();
 
+    }
+
+    public void TechicianName() {
+        System.out.println(this.name);
+    }
+
+    public void TechicianSurname() {
+        System.out.println(this.surname);
+    }
+
+    public void TechicianBirthYear() {
+        System.out.println(this.homeNumber);
+    }
+
+    public void TechicianID() {
+        System.out.println(this.ID);
+    }
+
+    public void TechicianStreet() {
+        System.out.println(this.street);
+    }
+
+    public void TechicianHomeNumber() {
+        System.out.println(this.homeNumber);
+    }
+
+    public void TechicianApartmentNumber() {
+        System.out.println(this.apartmentNumber);
+    }
+    public void Atribut() {
+        System.out.println("1. Name \n2. Surname \n3. Birth Year \n4. ID \n5. Street \n6. Home number \n7. apartment number");
+        Scanner koni = new Scanner(System.in);
+        int atribut = koni.nextInt();
+        switch (atribut){
+            case 1:
+                TechicianName();
+                break;
+            case 2:
+                TechicianSurname();
+                break;
+            case 3:
+                TechicianBirthYear();
+                break;
+            case 4:
+                TechicianID();
+                break;
+            case 5:
+                TechicianStreet();
+                break;
+            case 6:
+                TechicianHomeNumber();
+                break;
+            case 7:
+                TechicianApartmentNumber();
+                break;
+        }
     }
 }

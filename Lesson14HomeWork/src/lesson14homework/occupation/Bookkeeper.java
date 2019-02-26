@@ -1,5 +1,7 @@
 package lesson14homework.occupation;
 
+import java.util.Scanner;
+
 public class Bookkeeper extends sql {
 
     public Bookkeeper() {
@@ -51,12 +53,69 @@ public class Bookkeeper extends sql {
 
     public void Show() {
 
-//        Bookkeeper book = new Bookkeeper();
         this.BookkeeperDefault();
         this.BookkeeperFirst();
         this.BookkeeperSecond();
         this.BookkeeperThird();
         this.BookkeeperFourth();
+
+    }
+
+    public void BookkeeperName() {
+        System.out.println(this.name);
+    }
+
+    public void BookkeeperSurname() {
+        System.out.println(this.surname);
+    }
+
+    public void BookkeeperBirthYear() {
+        System.out.println(this.homeNumber);
+    }
+
+    public void BookkeeperID() {
+        System.out.println(this.ID);
+    }
+
+    public void BookkeeperStreet() {
+        System.out.println(this.street);
+    }
+
+    public void BookkeeperhomeNumber() {
+        System.out.println(this.homeNumber);
+    }
+
+    public void BookkeeperApartmentNumber() {
+        System.out.println(this.apartmentNumber);
+    }
+
+    public void Atribut() {
+        System.out.println("1. Name \n2. Surname \n3. Birth Year \n4. ID \n5. Street \n6. Home number \n7. apartment number");
+        Scanner koni = new Scanner(System.in);
+        int atribut = koni.nextInt();
+        switch (atribut) {
+            case 1:
+                BookkeeperName();
+                break;
+            case 2:
+                BookkeeperSurname();
+                break;
+            case 3:
+                BookkeeperBirthYear();
+                break;
+            case 4:
+                BookkeeperID();
+                break;
+            case 5:
+                BookkeeperStreet();
+                break;
+            case 6:
+                BookkeeperhomeNumber();
+                break;
+            case 7:
+                BookkeeperApartmentNumber();
+                break;
+        }
 
     }
 }
